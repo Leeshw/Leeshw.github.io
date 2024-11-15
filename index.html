@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>十五的主页</title>
+		<style>
+			/* 全局样式 */
+			body {
+				margin: 0;
+				padding: 0;
+				font-family: 'Arial', sans-serif;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				height: 100vh;
+				background-color: #f8d8e4;
+				overflow: hidden;
+			}
+
+			/* 页面容器 */
+			.container {
+				position: relative;
+				max-width: 800px;
+				width: 90%;
+				height: 80%;
+				background: rgba(255, 255, 255, 0.8); /* 背景透明度调节 */
+				padding: 40px;
+				border-radius: 20px;
+				box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+				z-index: 1; /* 确保文字层在上方 */
+			}
+
+			/* 头像样式 */
+			.avatar {
+				width: 120px;
+				height: 120px;
+				border-radius: 50%;
+				border: 5px solid #f1c6d1;
+				object-fit: cover;
+				margin: 0 auto;
+			}
+
+			/* 自我介绍 */
+			.intro {
+				margin-top: 20px;
+				font-size: 1.2em;
+				color: #4c3f54;
+			}
+
+			.intro h1 {
+				color: #d07ab0;
+				font-size: 2.5em;
+				margin-bottom: 10px;
+			}
+
+			.intro p {
+				font-size: 1.1em;
+				color: #555;
+			}
+
+			/* 页脚 */
+			.footer {
+				margin-top: 30px;
+				font-size: 0.9em;
+				color: #888;
+			}
+			.footer a {
+				text-decoration: none;
+				color: #d07ab0;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<img src="avatar.jpg" alt="我的头像" class="avatar" />
+			<div class="intro">
+				<h1>您好，我是十五！</h1>
+				<p>一名终身学习和自在生活的践行者。</p>
+				<p>既要究天人之际，通古今之变，成一家之言。</p>
+				<p>亦要乘天地之正，而御六气之辩，以游无穷。</p>
+			</div>
+			<div class="footer">
+				<p>Email: qiongxie2021@163.com</p>
+				<p>微信号: Forever_Leeshw</p>
+			</div>
+		</div>
+	</body>
+</html>
