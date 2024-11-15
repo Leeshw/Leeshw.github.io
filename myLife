@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>十五的诗集</title>
+		<style>
+			/* 全局样式 */
+			body {
+				font-family: 'Arial', sans-serif;
+				background-color: #f8d8e4;
+				margin: 0;
+				padding: 0;
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+			}
+
+			/* 诗集展示 */
+			.poetry-section {
+				width: 80%;
+				max-width: 1000px;
+				padding: 40px 20px;
+			}
+
+			.poetry-section h1 {
+				font-size: 2.5em;
+				text-align: center;
+				color: #4c3f54;
+				margin-bottom: 40px;
+			}
+
+			.poetry-card {
+				background-color: white;
+				border-radius: 15px;
+				box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+				padding: 20px;
+				margin-bottom: 20px;
+				transition: transform 0.3s;
+			}
+
+			.poetry-card:hover {
+				transform: scale(1.05);
+			}
+
+			.poetry-card h3 {
+				font-size: 1.8em;
+				color: #d07ab0;
+			}
+
+			.poetry-card p {
+				font-size: 1.2em;
+				color: #4c3f54;
+				line-height: 1.6;
+			}
+
+			/* 关于我部分 */
+			.about-me {
+				background-color: #fff;
+				color: #4c3f54;
+				width: 80%;
+				max-width: 1000px;
+				padding: 40px;
+				border-radius: 15px;
+				box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+				margin-bottom: 40px;
+			}
+
+			.about-me h2 {
+				font-size: 2.5em;
+				text-align: center;
+				color: #d07ab0;
+				margin-bottom: 20px;
+			}
+
+			.about-me p {
+				font-size: 1.2em;
+				line-height: 1.6;
+				color: #555;
+			}
+
+			/* 页脚 */
+			.footer {
+				font-size: 0.9em;
+				color: #888;
+				margin-top: 40px;
+			}
+
+			.footer a {
+				text-decoration: none;
+				color: #d07ab0;
+			}
+		</style>
+	</head>
+	<body>
+		<!-- 诗集展示 -->
+		<div class="poetry-section">
+			<h1>浮生记</h1>
+
+			<!-- 诗集卡片1 -->
+			<div class="poetry-card">
+				<h3>鹤冲天·言己</h3>
+				<p>
+					寒街夜巷，持酒身形晃。<br />
+
+					叶落紧随风，飘何往？转身正当风，衣起恣狂荡。<br />
+
+					何须开导航？<br />
+
+					陶陶庸人，糊涂也识方向。<br />
+
+					曾见花红，捻来细嗅花香。<br />
+
+					过往皆因果，任流光。且把残杯饮罢，琴无弦，音茫茫。<br />
+
+					平生戏一场。<br />
+
+					虚利浮名，不如自在一两。
+				</p>
+			</div>
+
+			<!-- 诗集卡片2 -->
+			<div class="poetry-card">
+				<h3>梦里偶得</h3>
+				<p>
+					东方日出东方苍，<br />
+
+					白雾茫茫锁大江。<br />
+
+					青山万里犹为困，<br />
+
+					几人得见此天光？
+				</p>
+			</div>
+
+			<!-- 诗集卡片3 -->
+			<div class="poetry-card">
+				<h3>行香子·悟</h3>
+				<p>
+					一度春风，三顾旧梦。<br />
+
+					谁有幸？历尽秋冬。年华仍至，不复孩童。<br />
+
+					曾赏天星，攀云雾，入花丛。<br />
+
+					回神时分，满目清明。<br />
+
+					本真悟，缘起性空。天南地北，无谓西东。<br />
+
+					因世非世，我非我，众非众。
+				</p>
+			</div>
+			<div class="poetry-card">
+				<h3>言心</h3>
+				<p>
+					我欲终生守此崖，束心自望数寒鸦。<br />
+
+					君来话语千年事，君去送观十里花。<br />
+
+					当世纷纷已陌路，悬天星日尽一家。<br />
+
+					惟惜满身江湖气，无酒相欢徒饮茶。
+				</p>
+			</div>
+
+		<div class="poetry-card">
+			<h3>终篇</h3>
+			<p>
+					
+
+天地无人解，浮生大梦场。<br />
+
+无处可超脱，世事皆匆忙。<br />
+
+本是逍遥客，少年意气狂。<br />
+
+众生如星点，我欲成高阳。<br />
+
+他日凌云上，光芒万丈长。<br />
+
+温默照寰宇，不必名八荒。<br />
+
+此行幽且艰，智短知无疆。<br />
+
+山河几万里，岁月几千章。<br />
+
+日日需勤恳，步稳心如霜。<br />
+
+若逢半路夭，归途坦荡荡。<br />
+
+此命终有尽，愿使人间忘。
+			</p>
+		</div>
+	</div>
+</div>
+
+		<!-- 关于我部分 -->
+		<div class="about-me">
+			<h2>关于我</h2>
+			<p>天地囚笼，山河万里，此身独行。</p>
+			<p>然何来何往何真？何去何从何明？</p>
+			<p>曾欲逐人间虚幻之状，却难忍虚幻之伪。</p>
+			<p>若以此填心，无非是以叶障目，用纸包火。</p>
+			<p>遂弃绝于世，作壁上观，凭此孤命，探求一真。</p>
+		</div>
+
+		<!-- 页脚 -->
+		<div class="footer">
+			<p>Email: qiongxie2021@163.com</p>
+				<p>微信号: Forever_Leeshw</p>
+		</div>
+	</body>
+</html>
